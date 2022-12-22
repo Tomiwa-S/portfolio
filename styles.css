@@ -152,4 +152,8 @@ body{
     .design-bio{
         clear: left;
     }
+    .first{
+        padding-left: 16%;
+        padding-right: 16%;
+    }
 }
