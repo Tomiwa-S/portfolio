@@ -149,4 +149,7 @@ body{
     .code{
         margin-bottom: 100px;
     }
+    .design-bio{
+        clear: left;
+    }
 }
