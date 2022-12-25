@@ -27,6 +27,7 @@ h1{
     padding-top: 4%;
     font-family: Sacramento, cursive;
     color: #66BFBF;
+    z-index: top;
 }
 h2{
     font-family: Montserrat, sans-serif;
@@ -143,11 +144,17 @@ body{
     text-decoration: none;
  }
 @media only screen and (max-width:768px) {
+    h1{
+        font-size:281.25%;
+    }
+    h2{
+        font-size: 1.25rem;
+    }
     .top-cloud{
-        display: none;
+        right:3%;
     }
     .code{
-        margin-bottom: 100px;
+        margin-bottom: 1px;
     }
     .design-bio{
         clear: left;
@@ -155,5 +162,10 @@ body{
     .first{
         padding-left: 16%;
         padding-right: 16%;
+    }
+    .mountain{
+        width: 80%;
+        position: relative;
+        margin: 0 auto;
     }
 }
