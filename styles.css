@@ -161,6 +161,7 @@ body{
     }
     .intro{
         width:70%;
+        text-align:justify;
     }
     .first{
         padding-left: 16%;
