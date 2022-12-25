@@ -159,6 +159,9 @@ body{
     .design-bio{
         clear: left;
     }
+    .intro{
+        width:70%;
+    }
     .first{
         padding-left: 16%;
         padding-right: 16%;
